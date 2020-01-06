@@ -1,4 +1,4 @@
-## Open cases where Activity Type ("CntctType") is a Return ('6') and is not closed 
+### Open cases where Activity Type ("CntctType") is a Return ('6') and is not closed 
 
 
 ```sql
