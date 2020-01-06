@@ -1,6 +1,6 @@
 ---
 title: This is a page
-query: Open-Returns.sql
+query: Open-Returns.html
 ---
 
 
