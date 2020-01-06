@@ -9,9 +9,7 @@ layout: default
 
 {{content}}
 
-<p>{% if page.query %}
-  {% include {{ page.query }} %}
-</p>{% endif %}
+{% include query.html %}
 
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
