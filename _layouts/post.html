@@ -1,17 +1,10 @@
 ---
 layout: default
 ---
+<article class="post">
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
-
-{{content}}
-
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
-
-  {% include footer.html %}
-</html>
+</article>
