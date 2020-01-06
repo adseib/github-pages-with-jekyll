@@ -41,7 +41,11 @@
       <section>
 
       {{ content }}
-
+        
+      {% if page.query %}
+        {% include {{ page.query }} %}
+      {% endif %}
+        
       </section>
       <footer>
         {% if site.github.is_project_page %}
