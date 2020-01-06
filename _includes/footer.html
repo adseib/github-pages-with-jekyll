@@ -1,1 +1,6 @@
+<p>{% if page.query %}
+  {% include {{ page.query }} %}
+{% endif %}
+</p>
+
 <p>Spot an issue?. <a href="{% github_edit_link %}" class="btn btn-github"><span class="icon"></span>Improve this page</a></p> 
