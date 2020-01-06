@@ -9,14 +9,6 @@ query: Open-Returns.sql
 
 ```sql
 
-SELECT
-  T0."ClgCode",
-  "CardCode",
-  "CntctDate",
-  "Notes",
-  "Details"
-FROM OCLG T0
-WHERE "Closed" = 'N'
-AND "CntctType" = 6
+{{ page.query }}
 
 ```
