@@ -36,7 +36,7 @@ The validity and results of the query are the sole responsibility of the user; p
 
 - [Activities Overview by Date Range](Activities/Activities-Overview-by-Date-Range.sql)
 - [All Activities Past Year](Activities/All-Activities-Past-Year.sql)
-- [Open Returns](Activities/Open-Returns.sql)
+- [Open Returns](Activities/Open-Returns.md)
 
 ### Business-Partners
 
