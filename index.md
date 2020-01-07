@@ -1,8 +1,3 @@
----
-query: Open-Returns.sql
----
-
-
 # Query Library for Distributors
 
 Query library for Swagelok distributors on SAP B1.
